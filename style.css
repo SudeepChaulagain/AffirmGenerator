@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  /*   background:#d6bcfa; */
+  background: linear-gradient(
+    90deg,
+    rgba(84, 80, 157, 1) 0%,
+    rgba(99, 21, 138, 1) 33%,
+    rgba(173, 45, 67, 1) 100%
+  );
+  font-family: "Montserrat", sans-serif;
+}
+.form {
+  margin: 3rem auto;
+  background: #fff;
+  border-radius: 20px;
+  max-width: 30rem;
+  height: 15rem;
+  width: 150%;
+  padding: 10px 30px;
+  text-align: center;
+}
+.title {
+  margin: 15px;
+  color: #44337a;
+  font-size: 2rem;
+}
+.subtitle {
+  font-size: 1rem;
+  margin: 1rem;
+}
+.text {
+  background: #ff4365;
+  margin: 1rem 3rem 12rem 3rem;
+  font-size: 24px;
+  border-radius: 1rem;
+  min-height: 9rem;
+  /*   font-family: emoji; */
+  color: white;
+}
+.affirm__button {
+  margin: 0.1rem;
+  border: none;
+  background: #392061;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+.affirm__button:focus {
+  outline: none;
+}
+
+.affirm__button:hover {
+  background: #805ad5;
+}
+.affirms {
+  font-size: 20px;
+  font-family: inherit;
+  font-color: white;
+  padding: 2rem 0.5rem 0rem 0.5rem;
+}
